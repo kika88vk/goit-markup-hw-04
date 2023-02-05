@@ -1,6 +1,7 @@
 html {
     box-sizing: border-box;
 }
+
 *,
 *::before,
 *::after {
@@ -11,8 +12,9 @@ html {
     --primary-text-color: #434455;
     --title-text-color: #2E2F42;
     --accent-color: #4D5AE5;
-    --primary-white-color: #ffffff;  
+    --primary-white-color: #ffffff;
 }
+
 body {
     background-color: var(--primary-white-color);
     color: var(--primary-text-color);
@@ -20,6 +22,7 @@ body {
     font-size: 16px;
     margin: 0;
 }
+
 .container {
     width: 1158px;
     padding-left: 15px;
@@ -33,21 +36,21 @@ body {
 
 .page-header {
     border-bottom: 1px solid #E7E9FC;
-   
+
 }
 
 .header-navigation {
     display: flex;
     align-items: center;
     margin-right: auto;
-    
+
 }
 
 .nav-flex {
     display: flex;
     align-items: center;
     height: 72px;
-    
+
 }
 
 .logo {
@@ -101,7 +104,7 @@ body {
 }
 
 
-.mail-tel .link-mail-tel{
+.mail-tel .link-mail-tel {
     text-decoration: none;
     color: inherit;
     font-style: normal;
@@ -114,9 +117,10 @@ body {
 .mail-tel .link-mail-tel:focus {
     color: var(--accent-color);
 }
+
 /*---------------Hero---------------*/
 
-.hero  {
+.hero {
     background-color: var(--primary-text-color);
     text-align: center;
     /* width: 1158px; */
@@ -135,7 +139,7 @@ body {
     /* width: 494px; */
     /* height: 120px; */
     text-align: center;
-    
+
 }
 
 .hero .hero-btn {
@@ -156,9 +160,10 @@ body {
     padding: 16px 32px;
     /* margin-right: auto; */
     /* margin-left: auto; */
-   
-    
+
+
 }
+
 .hero .hero-btn:hover {
     background: #4D5AE5;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
@@ -174,7 +179,7 @@ body {
 .features {
     padding-top: 120px;
     padding-bottom: 120px;
-    
+
 }
 
 .feature-main-title {
@@ -213,7 +218,7 @@ body {
 .doing {
     /* width: 1158px;; */
     padding-bottom: 120px;
-    
+
 }
 
 .doing-title {
@@ -224,11 +229,11 @@ body {
     color: var(--title-text-color);
     margin: 0;
     margin-bottom: 72px;
-    
+
 }
 
 .doing-list {
-    list-style-type:none;
+    list-style-type: none;
     margin-top: 0;
     margin-bottom: 0;
     display: flex;
@@ -246,13 +251,13 @@ body {
 
 .team-title {
     font-size: 36px;
-    line-height: 1.11; 
-    text-align: center; 
+    line-height: 1.11;
+    text-align: center;
     text-transform: capitalize;
     color: var(--title-text-color);
     margin-bottom: 72px;
     margin-top: 0;
-    
+
 }
 
 .team-list {
@@ -265,10 +270,15 @@ body {
 }
 
 .team-item {
-   background-color: var(--primary-white-color);
+    background-color: var(--primary-white-color);
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
     text-align: center;
+}
+
+.team-wrap-text {
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 .team-name {
@@ -278,22 +288,22 @@ body {
     color: var(--title-text-color);
     margin-bottom: 8px;
     margin-top: 0;
-    padding-top: 32px;
+
 }
 
 .team-text {
-    
+
     color: var(--primary-text-color);
     margin: 0;
-    padding-bottom: 32px;
+
 }
 
 /*----------Footer-----------*/
 
 .footer {
-padding-top: 100px;
-padding-bottom: 100px;
-background-color: var(--primary-text-color);
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: var(--primary-text-color);
 }
 
 .white-logo {
@@ -302,25 +312,26 @@ background-color: var(--primary-text-color);
 
 .footer-text {
     font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     color: #E7E9FC;
     width: 264px;
     margin-bottom: 0;
-    
+
 }
 
 /*----------------------Portfolio------------------------*/
 
-.filters-n-cards{
-padding-bottom: 120px;
-padding-top: 96px;
+.filters-n-cards {
+    padding-bottom: 120px;
+    padding-top: 96px;
 }
 
 .filter-title {
-color: transparent;
-margin: 0;
-/* background-color:#E7E9FC; */
+    color: transparent;
+    margin: 0;
+    /* background-color:#E7E9FC; */
+    display: none;
 }
 
 .filters-list {
@@ -334,26 +345,26 @@ margin: 0;
 }
 
 .filter-btn {
-font-family: inherit;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: 0.04em;
-color: var(--accent-color);
-cursor: pointer;
-background: #F4F4FD;
-border: 1px solid #E7E9FC;
-border-radius: 4px;
-padding: 12px 24px;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: var(--accent-color);
+    cursor: pointer;
+    background: #F4F4FD;
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
+    padding: 12px 24px;
 }
 
-.filter-btn:hover{
-color: var(--primary-white-color);
-background: #404BBF;
-box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+.filter-btn:hover {
+    color: var(--primary-white-color);
+    background: #404BBF;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .filter-btn:focus {
@@ -369,34 +380,40 @@ box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
+    /* column-gap: 48px; */
+
+}
+
+.card-item:nth-last-child(-n + 3) {
+    margin-bottom: 0;
 }
 
 .card-item {
     background-color: #fff;
-    
-    
+    margin-bottom: 24px;
+
 }
 
-.card-item-info{
-border-bottom: 1px solid #E7E9FC;
-border-left: 1px solid #E7E9FC;
-border-right: 1px solid #E7E9FC;
-padding-top: 32px;
-padding-bottom: 32px;
-padding-left: 16px;
+.card-item-info {
+    border-bottom: 1px solid #E7E9FC;
+    border-left: 1px solid #E7E9FC;
+    border-right: 1px solid #E7E9FC;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 16px;
 }
 
 .card-item-info .card-title {
-font-weight: 500;
-font-size: 20px;
-line-height: 1.2;
-color: var(--title-text-color);
-margin-bottom: 8px;
-margin-top: 0;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: var(--title-text-color);
+    margin-bottom: 8px;
+    margin-top: 0;
 }
 
 .card-text {
     color: var(--primary-text-color);
     margin: 0;
-    
+
 }
